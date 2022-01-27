@@ -1,0 +1,19 @@
+Index.php
+La pagina di index servirà unicamente come pagina dove inserire le credenziali per eseguire il login, i dati verranno inviati mediante form utilizzando il metodo POST
+
+Login.php
+Questa pagina è responsabile del login degli utenti, in caso di credenziali invalide restituirà un alert contenente l'errore, altrimenti il form per effettuare la ricerca
+dei referti, che verranno recuperati mediante tecnologia ajax, in caso di esito positivo i vari referti verranno inseriti alli'interno di elementi card di bootstrap
+
+getReferti.php
+Questa pagina è responsabile della ricerca dei referti dati l'anno ed il codice del paziente, restituisce un json contenete i vari referti
+
+referto.php
+Questa pagina dato il query parameter filename=*filename del referto* restituisce una pagina che mostra il contenuto raw del referto in questione
+
+Possibili Migliorie:
+-validazione delle credenziali
+-utilizzare un DBMS per l'archiviazione dei dati
+-Conservare l'hash della password invece della password vera e propria
+-Durante il login inviare in post l'hash della password e non la password
+-Utilizzare un cookie per le sessioni in quanto così il login è inutile
