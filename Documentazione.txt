@@ -16,4 +16,4 @@ Possibili Migliorie:
 -utilizzare un DBMS per l'archiviazione dei dati
 -Conservare l'hash della password invece della password vera e propria
 -Durante il login inviare in post l'hash della password e non la password
--Utilizzare un cookie per le sessioni in quanto così il login è inutile
+-Utilizzare un cookie per le sessioni
